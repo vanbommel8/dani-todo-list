@@ -4,7 +4,7 @@ var list = require('./index.js');
 describe('TEST TO DO LIST', function () {
     it('add work, value ID Creator, Assignee and lenght todo',
         function () {
-            list.ins({ idCr: 3, idAs: 4, activity: "Wash the car" });
+            list.ins({ idCr: 3, idAs: 4, activity: "Dance with Squanchy!" });
             assert.equal(list.allTodo()[1].idCr, 3);
             assert.equal(list.allTodo()[1].idAs, 4);
             assert.equal(list.allTodo().length, 2);
@@ -29,7 +29,7 @@ describe('TEST TO DO LIST', function () {
 
         it('add users, lenght 2',
         function () {
-            list.addUsers({ idUsers: 3, Name: "Daniele" });
+            list.addUsers({ idUsers: 3, Name: "Rick" });
             assert.equal(list.allUsers().length,3);
 
         });
