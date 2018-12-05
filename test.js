@@ -1,7 +1,7 @@
 var assert = require('assert');
 var list = require('./index.js');
 
-describe('TEST TO DO LIST', function () {
+describe('TEST DANI TO DO LIST', function () {
     it('add work, value ID Creator, Assignee and lenght todo',
         function () {
             list.ins({ idCr: 3, idAs: 4, activity: "Dance with Squanchy!" });
