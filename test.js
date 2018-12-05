@@ -29,7 +29,7 @@ describe('TEST TO DO LIST', function () {
 
         it('add users, lenght 2',
         function () {
-            list.addUsers({ idUsers: 3, Name: "Giuseppe" });
+            list.addUsers({ idUsers: 3, Name: "Daniele" });
             assert.equal(list.allUsers().length,3);
 
         });
