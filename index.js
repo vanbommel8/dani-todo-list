@@ -3,7 +3,7 @@ var todo = [
   {
     idCr: 1,
     idAs: 2,
-    activity: "Wash the dog",
+    activity: "Dance with Squanchy!",
     id: cont++
   }
 ]
