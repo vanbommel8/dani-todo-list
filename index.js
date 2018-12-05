@@ -3,18 +3,18 @@ var todo = [
   {
     idCr: 1,
     idAs: 2,
-    activity: "Wash the car",
+    activity: "Wash the dog",
     id: cont++
   }
 ]
 var users = [
   {
     idUsers: 1,
-    name: "Luca"
+    name: "Rick"
   },
   {
     idUsers: 2,
-    name: "Mario"
+    name: "Morty"
   }
 ]
 var todoStatus = [];
